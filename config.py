@@ -6,21 +6,21 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.API_ID = int(getenv("API_ID", "17596251"))
-        self.API_HASH = getenv("API_HASH", "e58343b4c0193e293e391daf97603fcd")
+        self.API_ID = int(getenv("API_ID", "35776785"))
+        self.API_HASH = getenv("API_HASH", "06ea86923bf5d34bf1572092ed6e3422)
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN", "Apna Bot Token")
+        self.BOT_TOKEN = getenv("BOT_TOKEN", "8774921393:AAFDqggJJkEkuAGSxdQjOWbBIZe4nQrmu80")
         self.MONGO_URL = getenv("MONGO_URL", "Apna Mongo Db Dalo")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", "Apna Log Group Id Dalo"))
-        self.OWNER_ID = int(getenv("OWNER_ID", "Owner I'd dalo"))
+        self.LOGGER_ID = int(getenv("LOGGER_ID", "-1003601301106"))
+        self.OWNER_ID = int(getenv("OWNER_ID", "7832349983"))
         
         self.SESSION1 = getenv("SESSION", "Apna String Dalo")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AloneUpdates")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/AloneBotSupport")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Axynetwork")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Axychats")
 
         self.AUTO_END: bool = getenv("AUTO_END", False)
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", False)
