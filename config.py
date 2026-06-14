@@ -15,7 +15,7 @@ class Config:
         self.LOGGER_ID = int(getenv("LOGGER_ID", "-1003601301106"))
         self.OWNER_ID = int(getenv("OWNER_ID", "7832349983"))
         
-        self.SESSION1 = getenv("SESSION", "Apna String Dalo")
+        self.SESSION1 = getenv("SESSION", "BQIh6REArTSBgv6Q1RTC1qw3sC5K9EMoEPJKibcxnmQw6BHl-krnarl2blmzXjNVL5pmMBoL9nsYC8hUtbr0Nuf5lBVqABOLGdqmbKHJIlHmMvalm5vUZkBRqXQzPfRohTHiSi9BrdtYMNXyQS9aAnzKGI4cfIORQdlNeZNmsKq8qjDudH04DFiJTzgF44uLQFve8ddfFT9eOmQjpCNkM0hZRGk8aI7z_MdBaeWcs2_YMpsoxFnEhs3gggQzPf2s8a-dNmHXHgYiq_DoZ1xtIpI8kZET_aLmFgh0OvhBFvP1j50n0TLdsovPR6lZ-eOjW2l_k4ThvLQdP-FiqGQ616xAdEjG4QAAAAHHwm12AA")
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
